@@ -20,7 +20,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src -d dist",
-    "lint": "eslint . --fix"
+    "lint": "eslint . ",
+    "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
     "@babel/cli": "^7.27.2",
